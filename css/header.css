@@ -1,0 +1,30 @@
+.cabecalho {
+    display: flex;
+    justify-content: space-between;
+    padding: 30px 80px;
+}
+.cabecalho__navegacao {
+    display: flex;
+    text-align: center;
+    align-items: center;
+}
+.cabecalho__navegacao-search {
+    background: #F5F5F5;
+    border-radius: 20px;
+    border: solid 1px #2A7AE4;
+    margin-left: 40px;
+    padding: 0px 10px;
+}
+.cabecalho__navegacao-imagem {
+    height: 40px;
+}
+.cabecalho__navegacao-pesquisa {
+    float: left;
+    background-color: transparent;
+    border: none;
+    width: 300px;
+    height: 30px;
+}
+.cabecalho__botao {
+    padding: 5px 60px;
+}

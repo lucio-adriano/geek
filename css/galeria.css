@@ -1,0 +1,36 @@
+.galeria {
+    background-color: #F5F5F5;
+    padding: 30px 80px;
+    width: auto;
+}
+.galetia__titulo {
+    align-items: flex-end;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 50px;
+    margin-bottom: 25px;
+}
+.galeria__titulo-vertudo {
+    color: #2A7AE4;
+    align-items: center;
+    display: flex;
+    gap: 10px;
+}
+.galeria__produtos { /*Podera ser removido*/
+    margin-bottom: 80px;
+}
+.galeria__produtos ul {
+    display: flex;
+    justify-content: space-between;
+}
+.galeria__lista-produto img {
+    width: 200px;
+    margin-bottom: 5px;
+}
+.galeria__lista-produto p {
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+.galeria__lista-produto a {
+    color: #2A7AE4;
+}

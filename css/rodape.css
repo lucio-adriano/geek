@@ -1,0 +1,9 @@
+footer {
+    color:slategray;
+    text-align: center;
+    height: 50px;
+    width: 100%;
+}
+footer p {
+    margin-top: 15px;
+}

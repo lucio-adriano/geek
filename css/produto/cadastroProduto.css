@@ -1,0 +1,58 @@
+.cadastro {
+    height: 400px;
+    padding: 50px 200px 0px 200px;
+    margin-bottom: 50px;
+    text-align: center;
+}
+.cadastro__imagem{
+    margin-top: 30px;
+}
+.cadastro__dados {
+    width: 535px;
+    height: 40px;
+    margin-top: 15px;
+}
+.cadastro__botao {
+    width: 540px;
+    margin-top: 15px;
+}
+
+
+@media screen and (max-width: 768px){
+    .cadastro {
+        height: 400px;
+        padding: 50px 20px 0px 20px;
+        margin-bottom: 50px;
+        text-align: center;
+    }
+    .cadastro__dados {
+        width: 680px;
+    }
+    .cadastro__botao {
+        width: 690px;
+
+    }
+
+}
+@media screen and (max-width: 360px) {
+    .cadastro {
+        height: 400px;
+        padding: 50px 10px 0px 10px;
+        margin-bottom: 50px;
+        text-align: center;
+    }
+    .cadastro h3 {
+        font-size: 28px;
+    }
+    .cadastro__procura{
+        display: none;
+    }
+    .cadastro__dados {
+        width: 304px;
+    }
+    .cadastro__botao {
+        width: 314px;
+
+    }
+
+}

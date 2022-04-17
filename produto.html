@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/default/reset.css">
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&display=swap" rel="stylesheet">
+    
+    <link rel="stylesheet" href="./css/default/base.css">
+    <link rel="stylesheet" href="./css/default/header.css">
+    <link rel="stylesheet" href="./css/produto/produto.css">
+    <link rel="stylesheet" href="./css/home/galeria.css">
+    <link rel="stylesheet" href="./css/default/widgets.css">
+    <link rel="stylesheet" href="./css/default/rodape.css">
+    
+    <title>AluraGeek</title>
+</head>
+<body>
+    <header class="cabecalho">
+        <nav class="cabecalho__navegacao">
+            <a href="./index.html"><h1><img class="cabecalho__navegacao-imagem" src="./img/Logo.svg" alt="Logomarca AluraGeek"></h1></a>
+            <div class="cabecalho__navegacao-search">
+                <input class="cabecalho__navegacao-pesquisa" type="text" placeholder="O que deseja encontrar?">
+                <img class="cabecalho__navegacao-icone_search" src="./img/Icone_search.svg" alt="Icone de Busca">
+            </div>
+        </nav>
+        <form action="./login.html" method="post">
+            <button type="submit" class="cabecalho__botao button_write">Login</button>
+        </form>
+    </header>
+    <main>
+        <section class="produto">
+            <div class="produto__destaque">
+                <img class="produto__destaque-imagem" src="" alt="">
+            </div>
+            <div class="produto__descricao">
+                <h2 class="produto__descricao-titulo">Produto XYZ</h2>
+                <h4 class="produto__descricao-valor">R$ 60,00</h4>
+                <p class="produto__descricao-sobre">Voluptas voluptatum quibusdam similique, class debitis alias maecenas
+                    eveniet ridiculus, facilis fusce! Ullam conubia? Sociis, minima malesuada
+                    habitasse distinctio sequi aliqua malesuada. Quisque deleniti proin
+                    expedita, aliquid litora. Iste recusandae? Commodo, quia ridiculus doloribus
+                    vero dictum? Penatibus donec placeat faucibus, dolorum do. Animi porta
+                    anim magnam</p>
+                <button class="produto__descricao-botao button_blue">Comprar</button>
+            </div>
+        </section>
+        <section class="galeria">
+            <div class="galeria__titulo">
+                <h3>Produtos similares</h3>
+                <a class="galeria__titulo-vertudo" href="#">Ver tudo<img src="./img/arrow_back_black_24dp 1.png" alt="Seta ver tudo"></a>
+            </div>
+            <div class="galeria__produto">
+                
+            </div>
+            <div class="galeria__produtos">
+                <ul>
+                    <li class="galeria__lista-produto">
+                        <img src="./img/Skill1.jpg" alt="">
+                        <h5>Produto XYZ</h5>
+                        <h4>R$ 60,00</h4>
+                        <a href="#">Ver produto</a>
+                    </li>
+                    <li class="galeria__lista-produto">
+                        <img src="./img/Skill2.jpg" alt="">
+                        <h5>Produto XYZ</h5>
+                        <h4>R$ 60,00</h4>
+                        <a href="#">Ver produto</a>
+                    </li>
+                    <li class="galeria__lista-produto">
+                        <img src="./img/Skill3.jpg" alt="">
+                        <h5>Produto XYZ</h5>
+                        <h4>R$ 60,00</h4>
+                        <a href="#">Ver produto</a>
+                    </li>
+                    <li class="galeria__lista-produto">
+                        <img src="./img/Skill4.jpg" alt="">
+                        <h5>Produto XYZ</h5>
+                        <h4>R$ 60,00</h4>
+                        <a href="#">Ver produto</a>
+                    </li>
+                    <li class="galeria__lista-produto nao-mobile">
+                        <img src="./img/Skill5.jpg" alt="">
+                        <h5>Produto XYZ</h5>
+                        <h4>R$ 60,00</h4>
+                        <a href="#">Ver produto</a>
+                    </li>
+                    <li class="galeria__lista-produto nao-mobile">
+                        <img src="./img/Skill6.jpg" alt="">
+                        <h5>Produto XYZ</h5>
+                        <h4>R$ 60,00</h4>
+                        <a href="#">Ver produto</a>
+                    </li>
+              </ul>
+            </div>
+        </section>
+        <section class="widgets">
+            <div class="widgets__divisao">
+                <div class="widgets__divisao_imagem">
+                    <img class="widgets__diviso_imagem-logo" src="./img/Logo.svg" alt="Logo AluraGeek">
+                </div>
+                <ul class="widgets__lista">
+                    <li class="widgets__lista-menu"><a href="">Quem somos nós</a></li>
+                    <li class="widgets__lista-menu"><a href="">Politica de privacidade</a></li>
+                    <li class="widgets__lista-menu"><a href="">Programa fidelidade</a></li>
+                    <li class="widgets__lista-menu"><a href="">Nossas lojas</a></li>
+                    <li class="widgets__lista-menu"><a href="">Quero ser franqueado</a></li>
+                    <li class="widgets__lista-menu"><a href="">Anuncie aqui</a></li>
+                </ul>
+            </div>
+            <div class="widgets__formulario">
+                <form class="widgets__formulario-campos" action="">
+                    <h5>Fale conosco</h5>
+                    <label for="nome">Nome</label><br>
+                    <input type="text" id="nome" name="nome" placeholder="Nome completo">
+                    <textarea name="mensagem" id="mensagem" cols="30" rows="5" placeholder="Escreva sua mensagem"></textarea>
+                </form>
+                <button class="widgets__formulario-botao button_blue">Enviar mensagem</button>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <p>Desenvolvido por Adriano Lucio<br>2022</p>
+    </footer>
+</body>
+</html>

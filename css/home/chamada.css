@@ -1,0 +1,57 @@
+.chamada {
+    background-image: url("../../img/Hero.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    min-height: 352px;
+    color: #FFFFFF;
+}
+.chamada__texto {
+    padding-top: 150px;
+    padding-left: 150px;
+}
+.chamada__texto-titulo {
+    margin-bottom: 20px;
+}
+.chamada__texto-paragrafo {
+    font-size: 22px;
+}
+.chamada__botao {
+    margin-left: 150px;
+    margin-top: 20px;
+}
+
+
+@media screen and (max-width: 768px) {
+    .chamada {
+        background-image: url("../../img/Hero_tablet.png");
+        background-position: top;
+    }
+    .chamada__texto {
+        padding: 150px 0px 0px 50px;
+    }
+    .chamada__botao {
+        margin-left: 50px;
+        margin-top: 20px;
+    }
+}
+
+@media screen and (max-width: 360px) {
+    .chamada {
+        background-image: url("../../img/Hero_tablet.png");
+        background-size: 100%;
+        min-height: 165px;
+    }
+    .chamada__texto {
+        padding: 30px 10px 0px 10px;
+    }
+    .chamada__texto-titulo {
+        font-size: 22px;
+    }
+    .chamada__texto-paragrafo {
+        font-size: 14px;
+    }
+    .chamada__botao {
+        margin-left: 10px;
+        margin-top: 15px;
+    }
+}

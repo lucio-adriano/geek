@@ -1,0 +1,89 @@
+.produto {
+    display: flex;
+    height: 400px;
+    padding-top: 50px;
+    padding-left: 10%;
+    padding-right: 10%;
+    margin-bottom: 50px;
+}
+.produto__destaque {
+    background-image: url('../../img/Skill1.jpg');
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position: center;
+}
+.produto__destaque-imagem {
+    width: 560px;
+}
+.produto__descricao {
+    padding-left: 20px ;
+    margin-top: 100px;
+}
+.protudo__descricao-titulo {
+    margin-bottom: 20px;
+}
+.protudo__descricao-valor {
+    margin-bottom: 20px;
+}
+.produto__descricao-botao {
+    margin-top: 20px;
+    width: 250px;
+}
+
+@media screen and (max-width: 768px){
+    .produto {
+        height: auto;
+        margin-top: 20px;
+        margin-bottom: 50px;
+        padding-top: 20px;
+    }
+    .produto__destaque {
+        background-position: top;
+    }
+    .produto__destaque-imagem {
+        width: 240px;
+    }
+    .produto__descricao {
+        margin: 0px;
+    }
+    .produto__descricao-titulo {
+        font-size: 28px;
+        margin-bottom: 8px;
+    }
+    .produto__descricao-valor {
+        margin-bottom: 8px;
+    }
+    .produto__descricao-sobre {
+        font-family: Arial, Helvetica, sans-serif;
+        font-weight:100;
+        font-size: 14px;
+    }
+    .produto__descricao-botao {
+        margin-top: 8px;
+    }
+}
+@media screen and (max-width: 360px) {
+    .produto {
+        display: block;
+        margin: 0px;
+        width: 360px;
+        padding: 0px;
+        margin-bottom: 20px;
+    }
+    .produto__destaque {
+        background-position: center;
+        padding: 0px;
+        margin-bottom: 20px;
+    }
+    .produto__destaque-imagem {
+        width: auto;
+        height: 250px;
+    }
+    .produto__descricao{
+        width: calc(360px - 40px);
+        padding: 0px 20px 0px 20px;
+    }
+    .produto__descricao-botao {
+        width: 100%;
+    }
+}

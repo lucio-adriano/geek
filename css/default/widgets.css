@@ -1,0 +1,115 @@
+.widgets {
+    align-items: flex-start;
+    background-color: #EAF2FD;
+    display: flex;
+    padding: 30px 150px;
+    margin-top: 100px;
+    justify-content: space-between;
+    height: 368px;
+}
+.widgets__divisao {
+    margin-right: 5em;
+    align-items: flex-start;
+    display: flex;
+    justify-content: space-between;
+    width: 50%;
+}
+
+.widgets__lista-menu {
+    padding: 10px 0px;
+}
+.widgets__formulario {
+    width: 50%;
+    padding: 20px 0px;
+    display: flex;
+    flex-direction: column;
+}
+.widgets__formulario-campos {
+    width: 100%;
+}
+.widgets__formulario-campos label {
+    margin-top: 10px;
+    color: darkgrey;
+    font-size: 12px;
+    background-color: #FFFFFF;
+    padding-left: 10px;
+    padding-bottom: 2px;
+    width: 100%;
+    display: inline-block;
+    border: solid 2.5px #FFF;
+}
+#nome {
+    height: 30px;
+    border: none;
+    padding-left: 10px;
+}
+#nome:focus {
+    height: 30px;
+    border: none;
+}
+#nome, #mensagem {
+    width: 100%;
+    border: none;
+    margin-bottom: 10px;
+}
+#mensagem {
+    padding: 20px;
+}
+.widgets__formulario-botao{
+    margin-top: 10px;
+    width: 135px;
+    height: 40px;
+}
+
+@media screen and (max-width: 768px) {
+    .widgets {
+        margin-top: 50px;
+        padding: 10px 15px;
+        height: auto;
+    }
+    .widgets__divisao {
+        display: block;
+        margin: 0px;
+    }
+    #nome, #mensagem {
+        width: 360px;
+        border: none;
+        margin-bottom: 10px;
+    }
+    #mensagem {
+        padding: 6px;
+    }
+}
+
+@media screen and (max-width: 360px) {
+    .widgets {
+        display: block;
+        width: 360px;
+        height: auto;
+        margin-top: 20px;
+        padding: 0px;
+    }
+    .widgets__divisao{
+        text-align: center;
+    }
+    .widgets__divisao_imagem {
+        width: 360px;
+    }
+    .widgets__lista {
+        width: 360px;
+    }
+    .widgets__lista-menu {
+        width: 360px;
+    }
+    .widgets__formulario {
+        padding: 20px 10px;
+        width: 340px;
+    }
+    .widgets__formulario-campos label {
+        width: 330px;
+    }
+    #nome, #mensagem {
+        width: 330px;
+
+    }
+}

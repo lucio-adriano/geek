@@ -1,0 +1,16 @@
+.login {
+    margin-top: 50px;
+ text-align: center;
+}
+.login__dados {
+    color: slategrey;
+    margin-top: 15px;
+    padding: 5px;
+    width: 300px;
+    height: 30px;
+    border: none;
+}
+.login__botao {
+    margin-top: 15px;
+    width: 310px;
+}

@@ -1,9 +1,17 @@
 .galetia__titulo {
-    display: block;
+    display: flex;
 }
 .galetia__titulo h3 {
     font-size: 22px;
 }
 .produtos__botao {
     margin-top: 15px;
+}
+
+.galeria__produtos{
+    display: flex;
+}
+.galeria__produtos ul li{
+    padding: 5px;
+
 }

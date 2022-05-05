@@ -1,4 +1,11 @@
 {
+  "user": [
+    {
+      "id": 1,
+      "title": "one",
+      "author": "alura"
+    }
+  ],
   "posts": [
     {
       "id": 1,
@@ -13,7 +20,150 @@
       "postId": 1
     }
   ],
-  "profile": {
-    "name": "typicode"
-  }
+  "profile": [
+    {
+      "nome": "Produto XYZ",
+      "valor": "60,00",
+      "descricao": "produto novo",
+      "imagem": "Skill1.jpg",
+      "tipo": "1",
+      "id": 1
+    },
+    {
+      "nome": "Produto XYZ",
+      "valor": "60,00",
+      "descricao": "produto novo",
+      "imagem": "Skill2.jpg",
+      "tipo": "1",
+      "id": 2
+    },
+    {
+      "nome": "Produto XYZ",
+      "valor": "60,00",
+      "descricao": "produto novo",
+      "imagem": "Skill3.jpg",
+      "tipo": "1",
+      "id": 3
+    },
+    {
+      "nome": "Produto XYZ",
+      "valor": "60,00",
+      "descricao": "produto novo",
+      "imagem": "Skill4.jpg",
+      "tipo": "1",
+      "id": 4
+    },
+    {
+      "nome": "Produto XYZ",
+      "valor": "60,00",
+      "descricao": "produto novo",
+      "imagem": "Skill5.jpg",
+      "tipo": "1",
+      "id": 5
+    },
+    {
+      "nome": "Produto XYZ",
+      "valor": "60,00",
+      "descricao": "produto novo",
+      "imagem": "Skill6.jpg",
+      "tipo": "1",
+      "id": 6
+    },
+    {
+      "nome": "Produto XYZ",
+      "valor": "60,00",
+      "descricao": "produto novo",
+      "imagem": "cSkill1.jpg",
+      "tipo": "2",
+      "id": 7
+    },
+    {
+      "nome": "Produto XYZ",
+      "valor": "60,00",
+      "descricao": "produto novo",
+      "imagem": "cSkill2.jpg",
+      "tipo": "2",
+      "id": 8
+    },
+    {
+      "nome": "Produto XYZ",
+      "valor": "60,00",
+      "descricao": "produto novo",
+      "imagem": "cSkill3.jpg",
+      "tipo": "2",
+      "id": 9
+    },
+    {
+      "nome": "Produto XYZ",
+      "valor": "60,00",
+      "descricao": "produto novo",
+      "imagem": "cSkill4.jpg",
+      "tipo": "2",
+      "id": 10
+    },
+    {
+      "nome": "Produto XYZ",
+      "valor": "60,00",
+      "descricao": "produto novo",
+      "imagem": "cSkill5.jpg",
+      "tipo": "2",
+      "id": 11
+    },
+    {
+      "nome": "Produto XYZ",
+      "valor": "60,00",
+      "descricao": "produto novo",
+      "imagem": "cSkill6.jpg",
+      "tipo": "2",
+      "id": 12
+    },
+    {
+      "nome": "Produto XYZ",
+      "valor": "60,00",
+      "descricao": "produto novo",
+      "imagem": "dSkill1.jpg",
+      "tipo": "3",
+      "id": 13
+    },
+    {
+      "nome": "Produto XYZ",
+      "valor": "60,00",
+      "descricao": "produto novo",
+      "imagem": "dSkill2.jpg",
+      "tipo": "3",
+      "id": 14
+    },
+    {
+      "nome": "Produto XYZ",
+      "valor": "60,00",
+      "descricao": "produto novo",
+      "imagem": "dSkill3.jpg",
+      "tipo": "3",
+      "id": 15
+    },
+    {
+      "nome": "Produto XYZ",
+      "valor": "60,00",
+      "descricao": "produto novo",
+      "imagem": "dSkill4.jpg",
+      "tipo": "3",
+      "id": 16
+    },
+    {
+      "nome": "Produto XYZ",
+      "valor": "60,00",
+      "descricao": "produto novo",
+      "imagem": "dSkill5.jpg",
+      "tipo": "3",
+      "id": 17
+    },
+    {
+      "nome": "Produto XYZ",
+      "valor": "60,00",
+      "descricao": "produto novo",
+      "imagem": "dSkill6.jpg",
+      "tipo": "3",
+      "id": 18
+    }
+  ]
 }

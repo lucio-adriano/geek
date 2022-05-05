@@ -37,6 +37,18 @@ h4 {
     color: #2A7AE4;
     background-color: #D4E4FA;
 }
+.input-button_write {
+    background-color: transparent;
+    border: solid 1px #2A7AE4;
+    color: #2A7AE4;
+    font-weight: bold;
+    height: 51px;
+    width: 182px;
+}
+.input-button_write:hover {
+    color: #2A7AE4;
+    background-color: #D4E4FA;
+}
 
 .button_blue {
     background-color: #2A7AE4;

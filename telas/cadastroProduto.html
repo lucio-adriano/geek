@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/default/reset.css">
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&display=swap" rel="stylesheet">
+    
+    <link rel="stylesheet" href="../css/default/base.css">
+    <link rel="stylesheet" href="../css/default/header.css">
+    <link rel="stylesheet" href="../css/login/login.css">
+    <link rel="stylesheet" href="../css/produto/cadastroProduto.css">
+    <link rel="stylesheet" href="../css/default/widgets.css">
+    <link rel="stylesheet" href="../css/default/rodape.css">
+    
+    <title>AluraGeek - Login</title>
+</head>
+<body>
+    <header class="cabecalho">
+        <nav class="cabecalho__navegacao">
+            <a href="../index.html"><h1><img class="cabecalho__navegacao-imagem" src="../img/Logo.svg" alt="Logomarca AluraGeek"></h1></a>
+            <div class="cabecalho__navegacao-search">
+                <input class="cabecalho__navegacao-pesquisa" type="text" placeholder="O que deseja encontrar?">
+                <img class="cabecalho__navegacao-icone_search" src="../img/Icone_search.svg" alt="Icone de Busca">
+            </div>
+        </nav>
+        <form action="../login.html" method="post">
+            <button type="submit" class="cabecalho__botao button_write">Login</button>
+        </form>
+
+    </header>
+    <main>
+        <section class="cadastro">
+            <form action="" data-form>
+                <div><h3>Adicionar novo produto</h3></div>
+                <div class="cadastro__imagem drag-area">
+                    <span class="borda_imagem"><img data-imagem class="imagem" src="" draggable="true" alt=""></span>                    
+                    <p>OU</p>
+                    <div>
+                        <label class="label_write" for="botao-imagem">Procurar imagem</label>
+                        <input id="botao-imagem" draggable="true" type="file" name="" accept="image/x-png,image/gif,image/jpeg"/>
+                        <!--button class="cadastro__procura button_write">Procura produto</button-->
+                    </div>
+                </div>
+                <div><input class="cadastro__dados" data-nome type="text" placeholder="Nome do produto" required></div>
+                <div><input class="cadastro__dados" data-valor type="number" placeholder="Preço do produto" required></div>
+                <div><textarea class="cadastro__dados" data-descricao placeholder="Descrição do produto" name="" id="" cols="30" rows="10"></textarea></div>
+                <div><input class="cadastro__dados" data-tipo type="text" placeholder="Tipo do produto" required></div>
+                <div><button class="cadastro__botao button_blue">Adicionar produto</button></div>
+            </form>
+        </section>
+        <section class="widgets">
+            <div class="widgets__divisao">
+                <div class="widgets__divisao_imagem">
+                    <img class="widgets__imagem-logo" src="../img/Logo.svg" alt="Logo AluraGeek">
+                </div>
+                <ul class="widgets__lista">
+                    <li class="widgets__lista-menu"><a href="">Quem somos nós</a></li>
+                    <li class="widgets__lista-menu"><a href="">Politica de privacidade</a></li>
+                    <li class="widgets__lista-menu"><a href="">Programa fidelidade</a></li>
+                    <li class="widgets__lista-menu"><a href="">Nossas lojas</a></li>
+                    <li class="widgets__lista-menu"><a href="">Quero ser franqueado</a></li>
+                    <li class="widgets__lista-menu"><a href="">Anuncie aqui</a></li>
+                </ul>
+            </div>
+            <div class="widgets__formulario">
+                <form class="widgets__formulario-campos" action="">
+                    <h5>Fale conosco</h5>
+                    <label for="nome">Nome</label><br>
+                    <input type="text" id="nome" name="nome" placeholder="Nome completo" required>
+                    <textarea name="mensagem" id="mensagem" cols="30" rows="5" placeholder="Escreva sua mensagem"></textarea>
+                </form>
+                <button class="widgets__formulario-botao button_blue" required>Enviar mensagem</button>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <p>Desenvolvido por Adriano Lucio<br>2022</p>
+    </footer>
+</body>
+<script type="module" src="../controller/cadastroProduto.js"></script>
+</html>

@@ -3,9 +3,39 @@
     padding: 50px 200px 0px 200px;
     margin-bottom: 50px;
     text-align: center;
+    display: block ruby;
 }
 .cadastro__imagem{
+    display: flex;
     margin-top: 30px;
+    align-items: center;
+    justify-content:space-between;
+}
+.drag-area{
+    width: 559px;
+    height: 152px;
+}
+.borda_imagem {
+    border: 3px dashed #e0eafc;
+    width: 282px;
+    height: 152px;
+}
+.imagem {
+    align-items: center;
+    width: 282px;
+    height: 152px;
+}
+.label_write{
+    background-color: transparent;
+    border: solid 1px #2A7AE4;
+    color: #2A7AE4;
+    font-weight: bold;
+    padding: 20px;
+    height: 200px;
+    width: 182px;
+}
+#botao-imagem{
+    display: none;
 }
 .cadastro__dados {
     width: 535px;
